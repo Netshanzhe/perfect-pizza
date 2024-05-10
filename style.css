@@ -2,3 +2,43 @@ body {
     background-color:blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
+.pizza{
+    border:1px solid #AF3E4D;
+    padding:1em;
+    margin:1em;
+    /*margin-left: 0.5em; */
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+
+}
+
+.medium_pizza{
+    background-color:#BD632F;
+    flex:1
+}
+.large_pizza{
+    background-color:#b52691;
+    flex:1
+}
+.small_pizza{
+  background-color:#D8973C;
+    flex:1
+}
+
+.contact_us{
+    background-color:antiquewhite;
+}
+@media(min-width:768px){
+    /*body {
+   /* background-color:#EBF2FA;
+    }*/
+
+}
+@media(min-width:960px){
+    /*body {
+        /*background-color:#EBF2FA;
+    }*/
+    .pizzas{
+        display:flex
+    }
+}
